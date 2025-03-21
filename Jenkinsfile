@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "nadinc/mvn"
+        DOCKER_IMAGE = "mukil077/hello"
         DOCKER_TAG = "latest"
         DOCKER_CREDENTIALS_ID = "e752556d-0bc6-4985-ad16-6f2a663ce000"
         
@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git url: 'https://github.com/nadin-c/MVNM_project.git', branch: 'main'
+                git url: 'https://github.com/mukil-subramaniam/MNV.git', branch: 'main'
             }
         }
 
