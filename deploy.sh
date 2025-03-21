@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set Docker image name, tag, and container name
-IMAGE_NAME="nadinc/mvn"
+IMAGE_NAME="mukil077/mvn"
 TAG="latest"
 CONTAINER_NAME="my_container"
 
